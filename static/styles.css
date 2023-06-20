@@ -1,0 +1,56 @@
+*{
+    color: gray;
+}
+
+.display-quote{
+    border: gray solid;
+    margin-top: 20vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+    font-size: 1.4rem;
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+}
+
+.results{
+    font-size: 2rem;
+    margin: 4rem;
+    /* color: gray; */
+}
+
+.timer{
+    text-align: right;
+}
+
+.result-container{
+    border: solid;
+    margin-top: 30vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    color: gray;
+}
+
+/* .result-table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.table{
+    margin-top: 15vh;
+}
+
+.btn-font{
+    color: gray;
+    font-weight: bold;
+}

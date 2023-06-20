@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stats
+{% endblock %}
+
+{% block main %}
+    <div class="container text-center">
+        <table class="table table-dark table-borderless">
+            <tr>
+                <th></th>
+                <th>WPM</th>
+                <th>Accuracy</th>
+            </tr>
+            <tr>
+                <th>Best</th>
+                <td>{{ stats["wpm_best"] }}</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <th>Average</th>
+                <td>{{ stats["wpm_avg"] }}</td>
+                <td>{{ stats["accuracy_avg"] ~ '%' }}</td>
+            </tr>
+            <tr>
+                <th>Last</th>
+                <td>{{ stats["wpm_last"] }}</td>
+                <td>{{ stats["accuracy_last"] ~ '%' }}</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+{% endblock %}

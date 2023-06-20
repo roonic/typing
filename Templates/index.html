@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Typo
+{% endblock %}
+
+{% block main %}
+    <div class="container text-center">
+
+        <div class="results">
+            <span class="wpm" id="wpm"></span>
+            <span class="timer" id="timer"></span>
+        </div>
+    </div>
+    <div class="container text-center quote" >
+        <div class="display-quote" id="displayQuote"></div>
+        <div class="mt-3">
+
+                <div class="input-group input-group-lg textfield">
+                    <form action="/result" id="testResult"></form>
+                        <input id="quoteInput" autocomplete="off" autocorrect="off" autofocus type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Your Text Goes Here">
+                    </form>
+                    <button class="btn btn-dark btn-font ms-3" id="reload">Reload</button>
+                </div>
+
+        </div>
+    </div>
+{% endblock %}

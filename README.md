@@ -1,7 +1,7 @@
 # Typo : A typing test
 
 ### Description:
-This is my CS50x final project. It is a simple typing test web application named Typo. Typo allows you to take typing tests to see your typing speed i.e. WPM(words per minute) and accuracy. Typo allows you to take typing tests with and without signing up. Taking tests by loging in allows you to see your stats and track your progress. You can see your average and best speed and accuracy and also the speed and accuracy of the latest test. This web application keeps track of your progress to help you in your journey to become a fast, accurate and confident typist.
+It is a simple typing test web application named Typo. Typo allows you to take typing tests to see your typing speed i.e. WPM(words per minute) and accuracy. Typo allows you to take typing tests with and without signing up. Taking tests by loging in allows you to see your stats and track your progress. You can see your average and best speed and accuracy and also the speed and accuracy of the latest test. This web application keeps track of your progress to help you in your journey to become a fast, accurate and confident typist.
 
 ### Tech Used:
 - Python(Flask)
